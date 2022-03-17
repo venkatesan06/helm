@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Route
+metadata:
+  name: {{ .Release.Name}}-route
+spec:   
+  to:
+    kind: Service
+    name: {{ .Release.Name}}-service 
