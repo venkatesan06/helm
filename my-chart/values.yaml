@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: venkatesan.jfrog.io/app-docker/app
-  tag: 1.0
+  tag: "1.0"
 service:
   type: LoadBalancer
   port: 8080
